@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriWeather AI</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Weather Forecasting System for Precision Agriculture</h1>
+        <p>AI-powered localized forecasts to help farmers make better sowing, harvesting, and pesticide decisions.</p>
+        <button class="cta">Try Forecast Now</button>
+      </div>
+      <div class="hero-image">
+        <!-- Add an image if needed -->
+      </div>
+    </div>
+
+    <section class="forecast-input">
+  <h2>Check Weather for Your Farm</h2>
+  <form id="forecastForm">
+    <input type="text" placeholder="Enter Location" required>
+    <button type="submit">Get Forecast</button>
+  </form>
+</section>
+
+    <!-- Overflow Menu -->
+    <div class="overflow-menu">
+      <button class="menu-btn" onclick="toggleMenu()">&#x22EE;</button>
+      <div class="menu-options" id="menuOptions">
+        <a href="#" onclick="showLoginBox()">Sign In</a>
+        <a href="#">User Profile</a>
+      </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="login-box">
+      <form id="loginForm">
+        <label for="username">Username</label>
+        <input id="username" type="text" placeholder="Username" required>
+
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Password" required>
+
+        <button type="submit">Login</button>
+        <button type="button">Register</button>
+
+        <div class="language-selector">
+          <select>
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+            <option value="kn">Kannada</option>
+          </select>
+        </div>
+        <a href="#">Forgot Password?</a>
+      </form>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>Why AgriWeather AI?</h2>
+    <ul>
+      <li>Predict rainfall and temperature drops with precision.</li>
+      <li>Customized forecasts for your exact farm location.</li>
+      <li>Integrates real-time weather APIs, satellite data, and on-field IoT sensors.</li>
+      <li>Designed for both smartphones and low-bandwidth usage.</li>
+      <li>Multilingual support for broader accessibility.</li>
+      <li>AI learns and adapts to your crop patterns.</li>
+    </ul>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card"><img src="forecast.jpeg" alt="Forecast Icon" class="card-icon"><p>Hyperlocal Weather Forecast</p></div>
+      <div class="card"><img src="crop.jpeg" alt="Crop Icon" class="card-icon"><p>Crop Recommendation Engine</p></div>
+      <div class="card"><img src="pecst.jpeg" alt="Pest Alert" class="card-icon"><p>Disease & Pest Alert System</p></div>
+      <div class="card"><img src="tips.jpeg" alt="Tips Icon" class="card-icon"><p>Farming Tips Based on Weather</p></div>
+      <div class="card"><img src="soil.jpeg" alt="Soil Moisture" class="card-icon"><p>Soil Moisture Monitoring</p></div>
+      <div class="card"><img src="irriga.jpeg" alt="Irrigation" class="card-icon"><p>Irrigation Scheduling Assistant</p></div>
+      <div class="card"><img src="ferti.jpeg" alt="Fertilizer" class="card-icon"><p>Fertilizer Optimization Suggestions</p></div>
+      <div class="card"><img src="market.jpeg" alt="Market Price" class="card-icon"><p>Market Price Forecasts for Crops</p></div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="how-it-works">
+    <h2>How AgriWeather Works</h2>
+    <ol>
+      <li>Enter your farm location or allow GPS access.</li>
+      <li>Select crop and soil details.</li>
+      <li>Get real-time, actionable forecasts and recommendations.</li>
+      <li>Receive alerts via SMS, app, or email.</li>
+    </ol>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>What Farmers Say</h2>
+    <div class="testimonial">
+      <img src="farmer1.jpeg" alt="Farmer 1" class="testimonial-pic">
+      <p>"अब हमें बारिश की सही जानकारी मिलती है और फसल अच्छी होती है।" — रमेश, मध्यप्रदेश</p>
+    </div>
+    <div class="testimonial">
+      <img src="farmer2.jpeg" alt="Farmer 2" class="testimonial-pic">
+      <p>"Weather alerts helped save my crops from pests." — Anita, Karnataka</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact Us</a>
+      <a href="#">FAQs</a>
+    </div>
+    <div class="social-icons">
+      <a href="#">Facebook</a>
+      <a href="#">WhatsApp</a>
+      <a href="#">YouTube</a>
+      <a href="#">Instagram</a>
+    </div>
+    <div class="contact-info">
+      <p>Phone: +91-XXXXXXXXXX | Email: info@agriweather.ai</p>
+    </div>
+    <div class="newsletter">
+      <input type="email" placeholder="Subscribe to our newsletter">
+      <button>Subscribe</button>
+    </div>
+  </footer>
+  <footer class="footer">
+  <p>&copy; 2025 <a href="https://github.com/zaiba2fathima" target="_blank">Zaiba Fathima</a> | Built with HTML, CSS & JavaScript</p>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
